@@ -4,38 +4,32 @@
 [![Docker Pulls][ico-downloads]][link-dockerhub]
 [![Docker Stars][ico-dockerstars]][link-dockerhub]
 
-## Welcome
-Magento Cloud Docker is a package—part of the [Magento Cloud Suite](#magento-cloud-suite)—designed to develop, test, and deploy your Magento Commerce store. The Magento Cloud Docker implementation deploys Cloud projects to a local workstation so that you can develop and test your code in a simulated Cloud environment.
+## Bienvenidos
+Magento Cloud Docker es un paquete (parte de Magento Cloud Suite) diseñado para desarrollar, probar e implementar su tienda Magento Commerce. La implementación de Magento Cloud Docker implementa proyectos en la nube en una estación de trabajo local para que pueda desarrollar y probar su código en un entorno de nube simulado.
 
-## Contributing to Magento Cloud Docker Code Base
-You can submit issues and pull requests to extend functionality or fix potential bugs. Improvements to Magento Cloud Docker can include work such as improving the developer experience or optimizing the deployment process. If you find a bug or have a suggestion, let us know by creating a Github issue.
+## Contribución a la base de código de Magento Cloud Docker
+Puede enviar problemas y solicitudes de extracción para ampliar la funcionalidad o corregir posibles errores. Las mejoras en Magento Cloud Docker pueden incluir trabajos como mejorar la experiencia del desarrollador u optimizar el proceso de implementación. Si encuentra un error o tiene una sugerencia, avísenos creando un problema de Github.
 
-**Note:** This repository is not an official support channel. To receive project-specific help, submit a support ticket using the [Magento Support Portal](https://support.magento.com). Any support-related issues opened in this repository will be closed with a request to open a support ticket.
+Nota: este repositorio no es un canal de soporte oficial. Para recibir ayuda específica del proyecto, envíe un ticket de soporte utilizando el Portal de soporte de Magento. Cualquier problema relacionado con el soporte que se abra en este repositorio se cerrará con una solicitud para abrir un ticket de soporte.
 
-# Magento Cloud Suite
-The Magento Cloud Suite includes a set of packages designed to deploy and manage Magento Commerce installations on the Cloud platform.
-- The [ece-tools package](https://github.com/magento/ece-tools) - A set of scripts and tools designed to manage and deploy Cloud projects
-- [Magento Cloud Components](https://github.com/magento/magento-cloud-components) package - Extended Magento Commerce core functionality for sites deployed on the Cloud platform
-- [Magento Cloud Docker](https://github.com/magento/magento-cloud-docker) package - Functionality and Docker images to deploy Magento Commerce to a local Cloud environment
-- [Magento Cloud Patches](https://github.com/magento/magento-cloud-patches) package - A set of patches which improve the integration of all Magento versions with Cloud environments
+## Suite Magento Cloud
+Magento Cloud Suite incluye un conjunto de paquetes diseñados para implementar y administrar las instalaciones de Magento Commerce en la plataforma Cloud.
 
-## Useful Resources
-- [Release Notes](https://github.com/magento/magento-cloud-docker/releases)
-- [Magento Cloud Docker DevDocs](https://devdocs.magento.com/cloud/docker/docker-development.html)
-- [Magento Cloud Guide DevDocs](https://devdocs.magento.com/cloud/bk-cloud.html)
-- [Cloud Knowledge Base and Support](https://support.magento.com)
-- [Cloud Slack Channel](https://magentocommeng.slack.com) (join #cloud and #cloud-docker)
-- [Docker Hub](https://hub.docker.com/r/magento/)
+##El paquete ece-tools: un conjunto de scripts y herramientas diseñados para administrar e implementar proyectos en la nube.
+Paquete de componentes de la nube de Magento: funcionalidad principal ampliada de Magento Commerce para sitios implementados en la plataforma de nube
+Paquete Magento Cloud Docker: funcionalidad e imágenes de Docker para implementar Magento Commerce en un entorno de nube local
+Paquete Magento Cloud Patches: un conjunto de parches que mejoran la integración de todas las versiones de Magento con entornos Cloud
+Recursos útiles
+Notas de lanzamiento
+DevDocs de Magento Cloud Docker
+DevDocs de la guía de Magento Cloud
+Soporte y base de conocimientos en la nube
+Cloud Slack Channel (únete a #cloud y # cloud-docker)
+Docker Hub
+Créditos y licencia
+Inspirado en meanbee / docker-magento2
 
-# Credits and License
-Inspired by [meanbee/docker-magento2](https://github.com/meanbee/docker-magento2)
+## Licencia
+Cada archivo fuente de Magento incluido en esta distribución tiene licencia OSL-3.0.
 
-## License
-Each Magento source file included in this distribution is licensed under OSL-3.0 license.
-
-Please see [LICENSE.txt](https://github.com/magento/ece-tools/blob/develop/LICENSE.txt) for the full text of the [Open Software License v. 3.0 (OSL-3.0)](http://opensource.org/licenses/osl-3.0.php).
-
-[ico-dockerbuild]: https://img.shields.io/docker/build/magento/magento-cloud-docker-php.svg?style=flat-square	
-[ico-downloads]: https://img.shields.io/docker/pulls/magento/magento-cloud-docker-php.svg?style=flat-square	
-[ico-dockerstars]: https://img.shields.io/docker/stars/magento/magento-cloud-docker-php.svg?style=flat-square	
-[link-dockerhub]: https://hub.docker.com/r/magento/magento-cloud-docker-php
+Consulte LICENSE.txt para obtener el texto completo de la licencia de software abierto v. 3.0 (OSL-3.0).
